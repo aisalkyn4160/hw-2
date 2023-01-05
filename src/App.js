@@ -1,4 +1,7 @@
 import './App.css';
+import HeaderBtn from './components/HeaderBtn';
+import LangBtn from './components/LangBtn';
+import Logo from './components/Logo';
 
 const obj = {
   logo: 'https://www.edigitalagency.com.au/wp-content/uploads/Netflix-logo-red-black-png.png',
@@ -15,13 +18,10 @@ function App() {
   
   return (
     <div className="App">
-      <img className="logo" src={obj.logo} alt='img' />
+      <Logo logo = {obj.logo}/>
       <div className='btns'>
-        <select className='lang-btn'>
-          <option>{obj.btns.sel.opt1}</option>
-          <option>{obj.btns.sel.opt2}</option>
-        </select>
-        <button className='header-btn'>{obj.btns.btn}</button>
+        <LangBtn opt1 = {obj.btns.sel.opt1} opt2 = {obj.btns.sel.opt2}/>
+        <HeaderBtn btn = {obj.btns.btn}/>
       </div>
     </div>
   );

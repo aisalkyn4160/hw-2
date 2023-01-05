@@ -5,26 +5,8 @@
   background-color: black;
 }
 
-.logo{
-  width: 200px;
-  height: 100px;
-}
 
-.header-btn{
-  margin: 0 20px;
-  font-size: 16px;
-  color: white;
-  padding: 6px 15px;
-  background-color: red;
-  font-weight: bold;
-  border-radius: 5px;
-}
 
-.lang-btn{
-  font-size: 16px;
-  color: white;
-  outline: none;
-  background-color: black;
-  padding: 5px;
-  border-radius: 3px;
-}
+
+
+
